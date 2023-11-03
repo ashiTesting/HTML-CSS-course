@@ -1,0 +1,105 @@
+/* .sidebar {
+  background-color: #ffffff;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  By default flexboxes are flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  Now with flex-direction: row; justify-content affects the vertical direction instead of the horizontal direction.
+  cursor: pointer;
+} */
+
+/* .sidebar-link:hover {
+  background-color: rgb(235, 235, 235)
+} */
+
+/* .sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+} */
+/* This means we target all images in sidebar link */
+
+/* .sidebar-link div {
+  font-size: 10px;
+} */
+
+@media (max-width: 1200px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+  }
+
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
+
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 4px;
+  }
+
+  .sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200.1px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 240px;
+    z-index: 200;
+    padding-top: 13px;
+  }
+
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 24px;
+  }
+
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
+
+  .sidebar-link img {
+    height: 24px;
+    margin-right: 24px;
+  }
+
+  .sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,198 @@
+<!-- CSS Position -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 14</title>
+  <style>
+
+    /* 14d */
+    /* .overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .model {
+      background-color: #ffffff;
+      width: 300px;
+      padding: 15px 15px;
+      border-radius: 5px;
+    } */
+
+    /* 14e */
+    /* * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .facebook-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 10px 50px;
+      border-bottom-width: 1px;
+      border-bottom-color: rgba(0, 0, 0, 0.15);
+      border-bottom-style: solid;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .profile-picture {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+      margin-left: 100px;
+      margin-right: 15px;
+    }
+
+    .name {
+      font-weight: bold;
+    }
+
+    .add-friend-button {
+      background-color: rgb(24, 119, 242);
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      margin-right: 5px;
+    }
+
+    .message-button {
+      background-color: rgb(230, 230, 230);
+      border: none;
+      padding: 8px 12px;
+      font-weight: bold;
+      border-radius: 6px;
+    } */
+
+    /* 14f */
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sidebar {
+      position: fixed;
+      background-color: rgb(33, 33, 33);
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      top: 0;
+      left: 0;
+      bottom: 0; 
+    }
+
+    .profile-picture {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+      margin-bottom: 10px;
+    }
+
+    .sidebar-2 {
+      position: fixed;
+      background-color: rgb(55, 55, 55);
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      top: 0;
+      left: 70px;
+      width: 150px;
+      bottom: 0;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    .name {
+      font-size: 14px;
+      color: white;
+    }
+
+    .create-new {
+      color: rgb(150, 150, 150);
+      font-size: 25px;
+    }
+
+    .channel {
+      color: rgb(150, 150, 150);
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body style="height: 3000px">
+
+  <!-- 14a -->
+  <!-- <div style="background-color: black; color: white; position: fixed; bottom: 20px; right: 20px;">bottom-right</div> -->
+
+  <!-- 14b -->
+  <!-- <div style="background-color: green; color: white; position: fixed; top: 0; bottom: 0; right: 0; width: 100px;">right sidebar</div> -->
+
+  <!-- 14c -->
+  <!-- <div style="background-color: black; position: fixed; top: 0; bottom: 0; left: 0; right: 0; color: #ffffff;">Entire Page</div> -->
+
+  <!-- 14d -->
+  <!-- <div style="background-color: green; color: white; position: fixed; top: 0; bottom: 0; right: 0; width: 100px;">right sidebar</div>
+  <div class="overlay">
+    <div class="model">
+      <div style="font-family: Arial; font-weight: bold; font-size: 24px; margin-bottom: 12px;">Modal Title</div>
+      <div style="font-family: Arial; font-size: 16px; margin-bottom: 12px;">This is a modal</div>
+      <button>Close</button>
+    </div>
+  </div> -->
+
+  <!-- 14e -->
+  <!-- <div class="facebook-header">
+    <div class="content">
+      <img class="profile-picture" src="cat.jpg" alt="">
+      <div class="name">Oliver Cat</div>
+    </div>
+    <div class="buttons">
+      <button class="add-friend-button">Add Friend</button>
+      <button class="message-button">Message</button>
+    </div>
+  </div> -->
+
+  <!-- 14f -->
+  <div class="sidebar">
+    <div><img class="profile-picture" src="cat.jpg" alt=""></div>
+    <div><img class="profile-picture" src="cat.jpg" alt=""></div>
+    <div><img class="profile-picture" src="cat.jpg" alt=""></div>
+  </div>
+  <div class="sidebar-2">
+    <div class="header">
+      <div class="name">info</div>
+      <div class="create-new">&#43;</div>
+    </div>
+    <div class="channel">&#x23; new-videos</div>
+    <div class="channel">&#x23; updates</div>
+    <div class="channel">&#x23; faq</div>
+  </div>
+</body>
+</html>

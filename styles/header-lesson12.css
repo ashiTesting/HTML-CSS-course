@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar {
+  display: block;
+}
+
+.left-section {
+  background-color: lightblue;
+  width: 150px;
+}
+
+.middle-section {
+  background-color: lightpink;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  /* To limit the width. The above propert says taht the width can be less 300px, but as soon as it grows to be over 300px, we're going to limit it to 300px. */
+}
+
+.right-section {
+  background-color: lightblue;
+  width: 200px;
+}

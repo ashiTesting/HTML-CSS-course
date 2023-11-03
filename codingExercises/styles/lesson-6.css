@@ -1,0 +1,414 @@
+  /* 4a */
+  .requestNow-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+  .requestNow-button:hover {
+    opacity: 0.8;
+  }
+
+  /* 4b */
+  .addToCart-button {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 23px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s;
+    vertical-align: top;
+  }
+  .addToCart-button:hover {
+    background-color: yellow;
+  }
+
+  /* 4c */
+  .signUp-button {
+    background-color: rgb(46, 164, 79);
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+  .signUp-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  /* 4d */
+  .getStarted-button {
+    background-color: rgb(121, 82, 179);
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    vertical-align: top;
+  }
+  .getStarted-button:hover {
+    background-color: blue;
+  }
+  .download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-width: 1px;
+    border-color: rgb(108, 117, 125);
+    border-radius: 5px;
+    border-style: solid;
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
+  }
+  .download-button:hover {
+    background-color: rgb(108, 117, 125);
+    color: #ffffff;
+  }
+
+  /* 4e */
+  .applyOnCompanyWebsite-button {
+    background-color: rgb(10, 102, 194);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 23px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color 0.15s;
+    vertical-align: top;
+  }
+  .applyOnCompanyWebsite-button:hover {
+    background-color: rgb(7, 76, 146);
+  }
+  .save-button {
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    color: rgb(10, 102, 194);
+    padding: 14px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 23px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: border-width 0.15s, background-color 0.15s;
+  }
+  .save-button:hover {
+    border-width: 2px;
+    background-color: rgba(7, 76, 146, 0.1);
+  }
+
+  /* 4f */
+  .tweet-button {
+    background-color: #1d9bf0;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  /* 4g */
+  .subscribe-button {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
+  .subscribe-button:active {
+    opacity: 0.5;
+  }
+
+  /* 4h */
+  .backNext-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .link {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+  }
+
+  /* 4i */
+  .stretch-button{
+    color: white;
+    background-color: green;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: padding 0.15s;
+    vertical-align: top;
+  }
+  .stretch-button:hover {
+    padding: 25px 30px;
+  }
+
+  /* 4j */
+  .shadow-button {
+    color: white;
+    background-color: green;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: margin-left 0.15s, margin-top 0.15s;
+  }
+  .shadow-button:active {
+    margin-top: 5px;
+    margin-left: 5px;
+    box-shadow: 0 0 0 0;
+  }
+
+  /* 4k */
+  .number-button {
+    color: white;
+    background-color: green;
+    padding: 8px 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: padding 0.15s;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: padding 0.15s, margin 0.15s;
+  }
+  .number-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* 5a */
+  .tahoma-font {
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* 5b */
+  .arial-font {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .lastDay {
+    font-family: Arial;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  /* 5c */
+  .hcc {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5;
+  }
+  .btp {
+    font-family: Verdana;
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .courseDescription {
+    font-family: Verdana;
+    font-size: 18px;
+    width: 320px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .getStarted-button {
+    font-family: Verdana;
+    font-size: 14px;
+    text-align: center;
+    background-color: green;
+    width: 85px;
+    padding: 10px 15px;
+    color: #ffffff;
+    margin-top: 0;
+    border-radius: 5px;
+  }
+
+  /* 5d */
+  .question {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .apple-text {
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .learnMore {
+    font-family: Arial;
+    font-size: 14px;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 0;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+
+  /* 5e */
+  .new {
+    font-family: Arial;
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .macbookPro {
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .supercharged {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .buy {
+    text-align: center;
+    margin-top: 0;
+  }
+  .buy-button {
+    font-family: Arial;
+    text-align: center;
+    padding: 7px 15px;
+    background-color: blue;
+    color: #ffffff  ;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  /* 5f */
+  .priceUSD {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .usd {
+    margin-left: 7px;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    font-weight: normal;
+  }
+  .growthPercentage {
+    font-family: Arial;
+    color: red;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .afterHours {
+    font-family: Arial;
+    font-size: 17px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+  }
+  .dipPercentage {
+    color: red;
+  }
+
+  /* 5g */
+  .fcc {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .at {
+    color: rgb(96, 96, 96);
+    font-weight: normal;
+  }
+  .webDev {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 17px;
+    width: 530px  ;
+  }
+  .skills {
+    font-family: Arial;
+    font-size: 17px;
+    margin-top: 0;
+  }
+  .linkChp {
+    color: blue;
+    cursor: pointer;
+  }

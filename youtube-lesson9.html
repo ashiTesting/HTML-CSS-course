@@ -1,0 +1,64 @@
+<!-- Lesson 9: The <div> Element -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube.com Clone</title>
+  <style>
+    .thumbnail {
+      width: 300px;
+      display: block;
+    }
+
+    .search-bar {
+      display: block;
+    }
+
+    .video-title {
+      width: 300px;
+    }
+
+    /* .div-example {
+      display: inline-block;
+    } */
+
+    .video-preview {
+      width: 300px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 15px;
+    }
+    /* Block elements take up the entire line in the container. */
+  </style>
+</head>
+<body>
+  <input class="search-bar" type="text" placeholder="Search">
+  
+  <div class="video-preview">
+    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+
+  <p class="video-title">
+    Talking Tech and AI with Google CEO Sundar Pichai!
+  </p>
+  <p class="video-author">Marques Brownlee</p>
+  <p class="video-stats">3.4M views &#183; 6 months ago</p>
+  </div>
+
+  <div class="video-preview">
+    <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+
+  <p class="video-title">Try Not To Laugh Challenge #9</p>
+  <p class="video-author">Markiplier</p>
+  <p class="video-stats">19M views &#183; 4 years ago</p>
+  </div>
+
+  <!-- <div class="div-example">this is a div</div> -->
+  <!-- The <div> element stands for division but an easy way to understand this is that the div is just a box. -->
+  <!-- • The <div> tag defines a division or a section in an HTML document.
+       • The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+       • The <div> is a block element.
+       • <div> can contain other elements. -->
+</body>
+</html>

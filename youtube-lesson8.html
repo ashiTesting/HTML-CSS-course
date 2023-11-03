@@ -1,0 +1,52 @@
+<!-- Lesson 8: CSS Display Property -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube.com Clone</title>
+  <style>
+    .thumbnail {
+      width: 300px;
+      display: block;
+    }
+
+    .search-bar {
+
+    }
+
+    .video-title {
+      width: 300px;
+    }
+
+    /* .video-author, */
+    /* This is how we target multiple things in CSS */
+    /* .video-stats {
+      display: inline-block;
+    } */
+    /* There are 3 types of HTML elements:
+        1. Block-level Elements
+        2. Inline-block Elements
+        3. Inline Elements */
+  /*    • A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+        • A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+        • Two commonly used block elements are: <p> and <div>. */
+    /*  • An inline-block element only take up as much space as it needs to.
+        • Two commonly use inline-block elements are <img> and <input> */
+    /*  • An inline element does not start on a new line.
+        • An inline element only takes up as much width as necessary.
+        • This is a <span> element inside a paragraph. */
+  </style>
+</head>
+<body>
+  <input class="search-bar" type="text" placeholder="Search">
+  <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+
+  <p class="video-title">
+    Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!
+  </p>
+  <p class="video-author">Marques Brownlee</p>
+  <p class="video-stats">3.4M views &#183; 6 months ago</p>
+</body>
+</html>

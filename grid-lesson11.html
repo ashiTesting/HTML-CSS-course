@@ -1,0 +1,52 @@
+<!-- Lesson 11: CSS Grid -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Practice</title>
+</head>
+<body style="padding-bottom: 1000px;">
+  <div style="display: grid; grid-template-columns: 100px 100px;">
+    <!-- To make a grid we need two properties:
+          1. display: grid;
+          2. grid-template-columns: 100px 100px; = We set how many columns our grid has. So, the number of values determine the number of columns and the value itself determines the width of the column -->
+    <div style="background-color: lightblue;">div 1</div>
+    <!-- This is called inline CSS -->
+    <div style="background-color: lightpink;">div 2</div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 100px 100px 200px; margin-top: 30px;">
+    <div style="background-color: lightblue;">100px</div>
+    <div style="background-color: lightpink;">100px <p>text</p></div>
+    <div style="background-color: lightblue;">200px</div>
+    <div style="background-color: lightpink;">100px</div>
+    <!-- When ever we have more elements than we have columns here, it starts to wrap around and create new rows. -->
+  </div>
+
+  <div style="display: grid; grid-template-columns: 100px 1fr; margin-top: 30px;">
+    <!-- fr stands for free space and it means to take up the remaining amount of space on this grid. -->
+    <div style="background-color: lightblue;">100px</div>
+    <div style="background-color: lightpink;">1fr</div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top: 30px;">
+    <div style="background-color: lightblue;">100px</div>
+    <div style="background-color: lightpink;">1fr</div>
+    <div style="background-color: lightblue;">2fr</div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 30px; height: 200px; column-gap: 20px; row-gap: 40px;">
+    <div style="background-color: lightblue;">1fr</div>
+    <div style="background-color: lightpink;">1fr</div>
+    <div style="background-color: lightblue;">1fr</div>
+    <div style="background-color: lightpink;">1fr</div>
+    <div style="background-color: lightblue;">1fr</div>
+    <div style="background-color: lightpink;">1fr</div>
+  </div>
+</body>
+</html>
+
+<!-- A grid is a layout that has rows and columns -->
+<!-- Grid maintain alignment much better. -->

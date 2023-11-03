@@ -1,0 +1,36 @@
+<!-- Lesson 7: Images and Text Boxes -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube.com Clone</title>
+  <style>
+    .thumbnail {
+      width: 300px;
+      /* When we set the width of an image, the height will also adjust so that the image has the same dimensions. */
+      /* height: 300px; */
+      /* object-fit: cover; */
+      /* This tells the image to cover this 300 by 300 area, but it's also going to keep its shape. */
+      /* object-fit: contain; */
+      /* The entire image is going to shrink until it is contained in this 300 by 300 area. */
+      /* border-width: 2px;
+      border-style: solid;
+      border-color: red;
+      object-position: bottom; */
+    }
+    .search-bar {
+      font-size: 20px;
+      /* margin-left: 12px; */
+    }
+  </style>
+</head>
+<body>
+  <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+  <!-- Image element is a void element. It's an element that doesn't require a closing tag. -->
+  <input class="search-bar" type="text" placeholder="Search">
+  <!-- <input type="checkbox"> -->
+  <!-- It is a void element and it doesn't require a closing tag. -->
+</body>
+</html>

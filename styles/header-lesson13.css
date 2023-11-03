@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  justify-content: space-between;
+}
+
+.search-bar {
+  display: block;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.youtube-logo {
+  height: 20px;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 34px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  height: 36px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  font-size: 16px;
+  padding-left: 10px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  /* If we want to set the box shadow inside we use inset */
+  width: 0;
+  /* To remove default width so it does shrink*/
+}
+
+.search-bar::placeholder {
+  font-family: Arial;
+  font-size: 16px;
+}
+/* This is how we target the placeholder on an input element like this. */
+
+.search-button {
+  height: 39px;
+  width: 66px;
+  border-width: 1px;
+  border-color: rgb(192, 192, 192);
+  border-style: solid;
+  background-color: rgb(240, 240, 240);
+  margin-left: -1px;
+  /* Negative subtracts space and pulls the element to that side */
+  margin-right: 10px;
+}
+
+.voice-search-button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+}
+
+.search-icon {
+  height: 25px;
+  margin-top: 4px;
+}
+
+.voice-search-icon {
+  height: 24px;
+  margin-top: 4px;
+}
+
+.right-section {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+  /* It prevents shrinking of certain elements. It means that no matter what happens, we're going to keep this width and we're not going to shrink. */
+}
+
+.upload-icon {
+  height: 24px;
+}
+
+.youtube-apps-icon {
+  height: 24px;
+}
+
+.notifications-icon {
+  height: 24px;
+}
+
+.current-user-picture {
+  height: 32px;
+  border-radius: 16px;
+}

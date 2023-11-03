@@ -1,0 +1,19 @@
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.heading {
+  margin-bottom: 7px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.onlineOrder {
+  text-align: center;
+  font-size: 14px;
+}
+
+.touchlessDelivery {
+  text-decoration: underline;
+}

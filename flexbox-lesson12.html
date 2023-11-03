@@ -1,0 +1,53 @@
+<!-- Lesson 12: Flexbox -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox practice</title>
+</head>
+<body>
+  <div style="display: flex; direction: row;">
+    <div style="background-color: lightblue;">div 1 text</div>
+    <div style="background-color: lightpink;">div 2 <p>text</p></div>
+    <!-- The flexbox with be vertically align. -->
+    <!-- Inside flexbox, these divs, which are block elements, don't behave like block elements anymore. They behave like inline block elements. They only take up as much horizontal space as they need to. -->
+  </div>
+
+  <div style="display: flex; direction: row; margin-top: 30px;">
+    <div style="background-color: lightblue; width: 100px;">100px</div>
+    <div style="background-color: lightpink; flex: 1;">flex 1</div>
+    <!-- flex: 1; is the flexbox equivalent to one fr in grid. -->
+  </div>
+
+  <div style="display: flex; direction: row; margin-top: 30px;">
+    <div style="background-color: lightblue; width: 100px;">100px</div>
+    <div style="background-color: lightpink; flex: 1;">flex 1</div>
+    <div style="background-color: lightblue; flex: 2;">flex 2</div>
+    <!-- flex: 2; is the flexbox equivalent to two fr in grid. -->
+  </div>
+
+    <div style="margin-top: 30px; height: 70px; border-width: 1px; border-style: solid; border-color: grey; display: flex; direction: row; margin-top: 30px; justify-content: start;">
+      <!-- justify-content: ; determines how there elements laid out horizontally. -->
+      <div style="background-color: lightblue; width: 100px;">100px</div>
+      <div style="background-color: lightpink; width: 100px;">100px</div>
+      <div style="background-color: lightblue; width: 100px;">100px</div>
+    </div>
+
+    <div style="margin-top: 30px; height: 70px; border-width: 1px; border-style: solid; border-color: grey; display: flex; direction: row; margin-top: 30px; justify-content: space-between;">
+      <!-- justify-content: space-between; spreads out our elements evenly across. -->
+      <div style="background-color: lightblue; width: 100px;">100px</div>
+      <div style="background-color: lightpink; width: 100px;">100px</div>
+      <div style="background-color: lightblue; width: 100px;">100px</div>
+    </div>
+
+    <div style="margin-top: 30px; height: 70px; border-width: 1px; border-style: solid; border-color: grey; display: flex; direction: row; margin-top: 30px; justify-content: space-between; align-items: center;">
+      <!-- align-items: ; determins how the elements are aligned vertically. The default value is stretch in which the elements are stretching to fill up the vertical space -->
+      <div style="background-color: lightblue; width: 100px;">100px</div>
+      <div style="background-color: lightpink; width: 100px;">100px</div>
+      <div style="background-color: lightblue; width: 100px;">100px</div>
+    </div>
+</body>
+</html>
+<!-- Flexbox is similar to CSS grid (but it's more flexible) -->

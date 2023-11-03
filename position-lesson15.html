@@ -1,0 +1,32 @@
+<!-- Lesson 15: Position Absolute and Relative -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position Practice</title>
+</head>
+<body style="height: 3000px; padding-top: 60px; padding-left: 80px;">
+  <div style="background-color: #000000; color: #ffffff; position: fixed; top: 0; left: 0; right: 0; height: 50px; z-index: 100;">
+    Header
+  </div>
+  <!-- Z index determines which element is going to appear in front and which elements appear behind. Default z-index value is 0. -->
+
+  <div style="background-color: red; color:  white; position: absolute; right: 10px; top: 60px;">Absolute</div>
+  <!-- For position absolute the elements are placed on the page, whereas for postion fixed the elements are placed in the browser window -->
+  <!-- An element that is written below is going to appear in front of elements that are written above it. -->
+
+  <div style="background-color: green; position: fixed; top: 50px; bottom: 0; left: 0; width: 72px;">sidebar
+    <div style="background-color: red; color:  white; position: absolute; right: 0; top: 0;">X</div>
+  </div>
+  <div style="background-color: lightblue; width: 200px; height: 200px; position: static;">
+    div 1
+  </div>
+  <div style="background-color: lightpink; width: 200px; height: 200px; position: relative;">
+    div 2
+    <div style="background-color: black; color:  white; position: absolute; right: 10px; bottom: 10px;">5:00</div>
+  </div>
+  <!-- If we put absolute in position: relative; it will position it relative to the element instead of relative to the page. -->
+</body>
+</html>
